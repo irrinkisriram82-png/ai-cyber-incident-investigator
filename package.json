@@ -1,0 +1,27 @@
+{
+  "name": "ai-cyber-incident-investigator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational, defensive cybersecurity incident-investigation simulator (React + Express + MongoDB + Gemini).",
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "concurrently -n server,client -c cyan,magenta \"npm run dev -w server\" \"npm run dev -w client\"",
+    "start": "npm run start -w server",
+    "build": "npm run build -w client",
+    "test": "npm run test -w server && npm run test -w client",
+    "test:server": "npm run test -w server",
+    "test:client": "npm run test -w client",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "license": "MIT"
+}
