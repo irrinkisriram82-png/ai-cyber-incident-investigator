@@ -6,6 +6,8 @@ checks your answer and computes the score; Gemini only writes the scenario conte
 
 **Live demo:** https://ai-cyber-incident-investigator.vercel.app/
 
+**Demo_video:** https://drive.google.com/file/d/1RbG1Jrx58TwPYFNHWYg5YYmtJl3-wKW4/view?usp=sharing
+
 > Everything is fictional: organisations, users, hosts, documentation-range IPs (`192.0.2.x`, `198.51.100.x`,
 > `203.0.113.x`). Nothing scans, executes or connects to a real system.
 
