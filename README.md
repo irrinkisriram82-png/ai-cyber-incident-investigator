@@ -4,6 +4,8 @@ An educational, **defensive** cybersecurity simulator. You generate a *fictional
 logs, discover evidence, reconstruct a timeline, ask for hints and file an incident report. The **server**
 checks your answer and computes the score; Gemini only writes the scenario content.
 
+**Live demo:** https://ai-cyber-incident-investigator.vercel.app/
+
 > Everything is fictional: organisations, users, hosts, documentation-range IPs (`192.0.2.x`, `198.51.100.x`,
 > `203.0.113.x`). Nothing scans, executes or connects to a real system.
 
